@@ -9,5 +9,6 @@ public class ExerciseController2 {
     public ResponseEntity<String> greeting() {
         String message = "Good Afternoon!";
         return ResponseEntity.ok(message);
+
     }
 }

@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ExerciseController1 {
-
     @GetMapping("/hello")
     public String hello() {
         return "Hello!";

@@ -8,7 +8,6 @@ import java.util.Random;
 
 @RestController
 public class ExerciseController4 {
-
     @GetMapping("/random")
     public ResponseEntity<String> getRandomResponse() {
         boolean isSuccess = new Random().nextBoolean();

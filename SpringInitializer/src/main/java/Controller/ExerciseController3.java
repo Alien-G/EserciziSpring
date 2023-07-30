@@ -9,5 +9,6 @@ public class ExerciseController3 {
     @GetMapping("/info")
     public ResponseEntity<String> getInfo() {
         return ResponseEntity.ok("ok");
+
     }
 }
